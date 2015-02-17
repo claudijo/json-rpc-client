@@ -1,7 +1,7 @@
 {
   "name": "json-rpc-client",
   "version": "1.0.0",
-  "description": "JSON RPC 2.0 client implementation, which can be used with an arbitrary transport",
+  "description": "JSON RPC 2.0 client implementation, which can be used with an arbitrary transport.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --check-leaks --reporter spec --bail",
