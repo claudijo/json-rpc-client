@@ -1,0 +1,40 @@
+{
+  "name": "json-rpc-client",
+  "version": "1.0.0",
+  "description": "JSON RPC 2.0 client implementation, which can be used with an arbitrary transport",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --check-leaks --reporter spec --bail",
+    "test-cov": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claudijo/json-rpc-client"
+  },
+  "keywords": [
+    "json",
+    "rpc",
+    "client"
+  ],
+  "author": "Claudijo Borovic <claudijo.borovic@gmail.com> (http://claudijo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudijo/json-rpc-client/issues"
+  },
+  "homepage": "https://github.com/claudijo/json-rpc-client",
+  "dependencies": {
+    "node-uuid": "^1.4.2"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0"
+  },
+  ,
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "directories": {
+    "test": "test"
+  }
+}
