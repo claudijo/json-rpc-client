@@ -4,7 +4,7 @@ A [JSON-RPC 2.0](http://www.jsonrpc.org/specification) client implementation, wh
 
 > The Client is defined as the origin of Request objects and the handler of Response objects.
 
-# Test
+## Test
 
 Run unit tests;
 
@@ -14,6 +14,6 @@ Create test coverage report:
 
 `$ npm run-script test-cov`
 
-# License
+## License
 
 [MIT](LICENSE)
