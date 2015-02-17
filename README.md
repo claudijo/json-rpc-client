@@ -15,6 +15,7 @@ Messages are batched if they are sent within the same event loop.
 ```js
 // Channel "interface"
 var channel = {
+  // Sends the specified sting over the wire.
   send: function(json) {
     // ...
   },
