@@ -42,7 +42,7 @@ request('subtract', {subtrahend: 23, minuend: 42}, function(err, result) {
 });
 
 // a notification
---> {"jsonrpc": "2.0", "method": "update", "params": [1,2,3,4,5]}
+// --> {"jsonrpc": "2.0", "method": "update", "params": [1,2,3,4,5]}
 request('update', [1, 2, 3, 4, 5]);
 ```
 
