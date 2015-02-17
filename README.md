@@ -6,18 +6,20 @@ A [JSON-RPC 2.0](http://www.jsonrpc.org/specification) client implementation, wh
 
 ## Usage
 
-Create request function with an arbitrary transport. The transport object MUST have a `send` method that takes a message string as argument, which will be pushed over the wire, and it MUST have an `on` method that takes a event name as a string argument and listener function argument which is invoked when the specified event is received.
+Create request function with an arbitrary transport. The transport object MUST have a `send` method for sending string messages and it MUST have an `on` method for adding `message` event listeners.
 
 Messages are batched if they are sent within the same event loop.
 
 ### Example
 
 ```js
+// Channel "interface"
 var channel = {
   send: function(json) {
     // ...
   },
 
+  // This method will be called with `message` as event and callback that takes a json string.
   on: function(event, listener) {
     // ...
   },
