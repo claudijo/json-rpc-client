@@ -6,7 +6,7 @@ A [JSON-RPC 2.0](http://www.jsonrpc.org/specification) client implementation, wh
 
 ## Test
 
-Run unit tests;
+Run unit tests:
 
 `$ npm test`
 
