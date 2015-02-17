@@ -19,7 +19,8 @@ var channel = {
     // ...
   },
 
-  // This method will be called with `message` as event and callback that takes a json string.
+  // This method will be called with the sting `message` as event and a callback
+  // that expects the incoming message payload as a string.
   on: function(event, listener) {
     // ...
   },
